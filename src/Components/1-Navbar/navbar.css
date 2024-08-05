@@ -1,0 +1,8 @@
+header#header {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
+
+header#header nav ul > * {
+    @apply font-semibold uppercase text-base
+}

@@ -1,0 +1,18 @@
+footer {
+    background-color: var(--secondary-color);
+    @apply text-white text-center
+
+}
+footer h5 {
+    @apply text-3xl uppercase font-medium mb-3
+}
+footer .footer-info {
+    @apply py-20
+}
+footer .copywrite {
+    background-color: var(--footer-bg);
+}
+
+footer ul > * {
+    @apply border w-10 h-10 flex justify-center items-center rounded-full
+}

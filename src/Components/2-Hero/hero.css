@@ -1,0 +1,17 @@
+section#hero {
+    background-color: var(--primary-color);
+    @apply h-screen
+}
+
+section#hero .container {
+    height: inherit;
+    @apply flex justify-center items-center
+}
+
+section#hero .hero-content {
+    @apply flex flex-col items-center
+}
+
+section#hero .line {
+    @apply w-20 h-1 bg-white
+}
